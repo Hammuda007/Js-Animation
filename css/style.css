@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ body{
+    background-color: #3C4240;
+    height: 100vh;
+    color: white;
+    font-family: 'Abril Fatface';
+ }
+ .Navbar{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 200px;
+    z-index: 2;
+    position: relative;
+ }
+ .menu-btn{
+    display: inline-block;
+ }
+ 
+ .menu-item{
+    display: inline-block;
+    width: 50px;
+    height: 4px;
+    background-color: white;
+
+
+ }
+ .menuitem-last{
+    margin-top: 5px;
+    display: block;
+ }
+ .banner-img img {
+    width: 420px;
+    height: 420px;
+ }
+ .banner{
+    padding: 18px 200px;
+    margin: 7% 0;
+
+ }
+ .banner-txt{
+    display: inline-block;
+    width: 49%;
+    padding-left: 15px;
+
+   
+    
+
+ }
+ .banner-img{
+    display: inline-block;
+    width: 49%;
+    
+ }
+ 
+ .banner-txt h1{
+    font-size: 80px;
+    margin-bottom: 30px;
+ }
+ .lorem{
+    font-size: 20px;
+    margin-bottom: 25px;
+ }
+ .explore-btn{
+    margin-top: 20px;
+    padding: 15px 35px;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+ }
+
+
+ .colored-title{
+   color: rgb(86,124 ,228);
+ }
+
+ .menu-window{
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   color: black;
+   background-color: white;
+   clip-path: circle(50px at 100% -10%);
+   padding: 14%;
+ }
+   
